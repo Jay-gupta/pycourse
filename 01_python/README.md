@@ -21,30 +21,30 @@ Each project is in its own folder, and the virtual environment is created in tha
 
 The tree above could be created like this:
 
->md trafficam
->cd trafficam
->python -m venv venv
->cd ..
->md dataspy
->cd dataspy
->python -m venv venv
->cd ..
->md autosub
->cd autosub
->python -m venv venv
+    >md trafficam
+    >cd trafficam
+    >python -m venv venv
+    >cd ..
+    >md dataspy
+    >cd dataspy
+    >python -m venv venv
+    >cd ..
+    >md autosub
+    >cd autosub
+    >python -m venv venv
 
 now depending on which project you want to work on you can go into that folder and activate that virtual environment.
 
->cd dataspy
->venv\Scripts\activate
-(venv) >
+    >cd dataspy
+    >venv\Scripts\activate
+    (venv) >
 
 when you switch to another project, you must activate that projects virtual environment.  to deactivate a virtual environment:
 
-(venv) >deactivate
->
+    (venv) >deactivate
+    >
 
 once you have activated a project virtual environment, you can install any external dependencies you need for that project.
 
-(venv) >pip install numpy
+    (venv) >pip install numpy
 
