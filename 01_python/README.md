@@ -47,4 +47,3 @@ when you switch to another project, you must activate that projects virtual envi
 once you have activated a project virtual environment, you can install any external dependencies you need for that project.
 
     (venv) >pip install numpy
-

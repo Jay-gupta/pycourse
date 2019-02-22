@@ -1,0 +1,42 @@
+system
+    input - process - output
+
+process
+- sequence of steps
+- branch
+- repetition
+
+subroutine/function/procedure
+
+class/module
+
+package
+
+application
+
+19             type: integer
+"hello world"  type: string
+1.2
+
++, -, *
+
+int + int
+
+/
+
+//
+
++, *
+
+concatenation
+
+repetition
+
+turtle
+
+turtle.Screen()
+x = turtle.Turtle()
+
+x.forward(100)
+x.left(45)
+x.right(50)
