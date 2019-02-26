@@ -44,3 +44,12 @@ print(x)
 x = 5
 
 print(x+x)
+
+print(type(True))
+
+x=0
+
+if x:
+    print("@@@@")
+
+    
