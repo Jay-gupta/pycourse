@@ -47,3 +47,64 @@ when you switch to another project, you must activate that projects virtual envi
 once you have activated a project virtual environment, you can install any external dependencies you need for that project.
 
     (venv) >pip install numpy
+
+
+basic data
+
+int, str, float, bool
+
+name 1 = input()
+name 2 = input()
+
+N=27
+name[N]
+list
+name - list name
+N is index
+name[N] nth item
+
+N 0 to len(names)-1
+
+name[10]
+0..9
+name[0] = 99
+name[1] = 'abc'
+name[0] = 'xyz'
+
+s = 15
+age[s] = 27
+
+
+tuple
+
+(10, 20)
+('black', 103, 'usb')
+
+a=('5ghz', '16gb', '1tb')
+a[0]
+
+dictionary
+
+{
+    year: 1950,
+    director: 'shyam'
+}
+a['year'] = '1950'
+
+drive
+C:
+
+c:\hitechos\README.md  # absolute path
+..\README.md           # relative path
+
+
+
+
+c:
+
+overwriting
+
+
+modules
+
+__init__.py
